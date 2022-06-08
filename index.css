@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "orbitron";
+    src: url(Orbitron-VariableFont_wght.ttf);
+}
+*{
+    font-family: "orbitron";
+}
+
+body{
+    font-family: "orbitron";
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 30%;
+    
+}
+.list-navegacion{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: o;
+}
+.a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(193,179,194);
+    background: linear-gradient(90deg, rgba(193,179,194,0.9780287114845938) 15%, rgba(213,191,226,0.28895308123249297) 83%);
+    padding-bottom: 50px;
+}
+section{
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+.container-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.container-negocio{
+    width: 50%;
+}
+.container-negocio p{
+    font-size: 2.0em;
+    width: 40%;
+    font-family: "orbitron";
+}
+.container-negocio button{
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color: black;
+    background-color: yellow;
+}
+.seccion-info{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    bottom: 5px;
+}
+.seccion-info h2{
+    margin: 50px 0px 0px 0xp;
+    padding: 0;
+    
+}
