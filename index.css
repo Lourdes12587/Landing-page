@@ -46,7 +46,7 @@ header{
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    background-color:hsla(212, 35%, 49%, 1)
+    background-color: #FFF000ff;
     
 }
 section{
@@ -67,7 +67,6 @@ section{
     width: 50%;
 
 }
-
 .container-negocio h2{
     font-size:2.0em;
     width:50%;
