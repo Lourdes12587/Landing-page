@@ -13,9 +13,13 @@ body{
 }
 
 nav{
-    width: 30%;
-    
+    width:40%; 
 }
+
+.logo{
+    width: 8%;
+}
+
 .list-navegacion{
     width: 100%;
     list-style: none;
@@ -23,26 +27,27 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 0;
-    margin: o;
+    margin: 0;
 }
+
 .a{
     color: black;
     text-decoration: none;
-    font-size: 30px;
+
 }
+
 header{
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background: rgb(193,179,194);
-    background: linear-gradient(90deg, rgba(193,179,194,0.9780287114845938) 15%, rgba(213,191,226,0.28895308123249297) 83%);
-    padding-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    
 }
 section{
     width: 100%;
-    background-color: lightslategrey;
 }
 
 .container-header{
@@ -50,35 +55,90 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 0;
+    padding-bottom: 20%;
+    background-image: url(keyboard-gc1e1d6820_1920.jpg);
 }
 .container-negocio{
     width: 50%;
 }
+
+.container-negocio h2{
+    font-size:2.0em;
+    width:50%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
 .container-negocio p{
     font-size: 2.0em;
-    width: 40%;
+    width: 80%;
     font-family: "orbitron";
 }
 .container-negocio button{
-    width: 30%;
-    height: 50px;
+    width: 25%;
+    height: 35px;
     border-radius: 10px;
     border: 0;
     outline: 0;
     color: black;
-    background-color: yellow;
+    background-color:hsla(212, 35%, 49%, 1);
+    font-size: 1.2em;
 }
+.container-negocio button:hover{
+    background-color:#8927B1ff;
+}
+
 .seccion-info{
-    background-color: blueviolet;
+    background-color: hsla(212, 35%, 49%, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
-    bottom: 5px;
-}
-.seccion-info h2{
-    margin: 50px 0px 0px 0xp;
-    padding: 0;
     
+}
+.seccion-info h1{
+    margin: 50px 0px 0px 0xp;
+    margin-top: 30px;
+    padding: 0;
+    color: white;
+}
+
+.container-servicios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+
+ 
+}
+.container-img-serv{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0;
+}
+.container-img-serv img{
+    width: 80%;
+    padding: 0;
+}
+.container-img-serv h4{
+    padding: 0;
+}
+.container-img-serv:hover{
+    background:  hsla(283, 64%, 42%, 1);
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
 }
