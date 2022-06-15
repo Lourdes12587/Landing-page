@@ -2,6 +2,7 @@
     font-family: "orbitron";
     src: url(Orbitron-VariableFont_wght.ttf);
 }
+
 *{
     font-family: "orbitron";
 }
@@ -14,14 +15,10 @@ body{
 
 nav{
     width:40%; 
-    position: sticky;
-    top:50px;
 }
-
 .logo{
     width: 8%;
 }
-
 .list-navegacion{
     width: 100%;
     list-style: none;
@@ -31,13 +28,10 @@ nav{
     padding: 0;
     margin: 0;
 }
-
 .a{
     color: black;
     text-decoration: none;
-
 }
-
 header{
     display: flex;
     width: 100%;
@@ -49,11 +43,10 @@ header{
     background-color: #FFF000ff;
     
 }
+
 section{
     width: 100%;
 }
-
-
 .container-header{
     width: 100%;
     display: flex;
@@ -63,9 +56,9 @@ section{
     padding-bottom: 20%;
     background-image: url(keyboard-gc1e1d6820_1920.jpg);
 }
+
 .container-negocio{
     width: 50%;
-
 }
 .container-negocio h2{
     font-size:2.0em;
@@ -93,27 +86,49 @@ section{
     background-color:#8927B1ff;
 }
 
+.seccion-nosotros{
+    background-color: hsla(212, 35%, 49%, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-nosotros{
+    width: 100%;
+    background-color: lightslategray;
+}
+.container-nosotros p{
+    background-color:lightslategray; 
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container-nosotros h4{
+    font-size: 1.0em;
+    display: flex;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .seccion-info{
     background-color: hsla(212, 35%, 49%, 1);
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.seccion-info h1{
-    margin: 50px 0px 0px 0xp;
-    margin-top: 30px;
-    padding: 0;
-    color: white;
 }
 
 .container-servicios{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: white;
-
- 
+    background-color: lightslategray; 
 }
 .container-img-serv{
     width: 25%;
@@ -134,6 +149,7 @@ section{
 .container-img-serv:hover{
     background:  hsla(283, 64%, 42%, 1);
 }
+
 footer{
     display: flex;
     width: 100%;
@@ -146,3 +162,4 @@ footer{
     color: white;
     font-size: 0.5em;
 }
+
