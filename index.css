@@ -3,19 +3,28 @@
     src: url(Orbitron-VariableFont_wght.ttf);
 }
 
-*{
-    font-family: "orbitron";
+@font-face {
+    font-family: "barlow";
+    src: url(Barlow-Black.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
-    font-family: "orbitron";
     padding: 0;
     margin: 0;
 }
 
-nav{
+.menu{
     width:40%; 
+    font-family: "barlow";
+    font-size: 1.2em;
+    position:sticky;
+    top:0;
 }
+
 .logo{
     width: 8%;
 }
@@ -28,10 +37,17 @@ nav{
     padding: 0;
     margin: 0;
 }
+
+.link:hover{
+    color:white;
+    text-decoration: underline; 
+}
+
 .a{
     color: black;
     text-decoration: none;
 }
+
 header{
     display: flex;
     width: 100%;
@@ -41,7 +57,7 @@ header{
     margin: 0;
     padding: 0;
     background-color: #FFF000ff;
-    
+    font-family: "orbitron";
 }
 
 section{
@@ -81,27 +97,26 @@ section{
     color: black;
     background-color:hsla(212, 35%, 49%, 1);
     font-size: 1.2em;
+    min-width: 200px;
+    font-family: "barlow";
+    
 }
 .container-negocio button:hover{
-    background-color:#8927B1ff;
-}
-
-.seccion-nosotros{
-    background-color: hsla(212, 35%, 49%, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: white;
 }
 
 .container-nosotros{
     width: 100%;
     background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "orbitron";
+
 }
 .container-nosotros p{
-    background-color:lightslategray; 
     display: flex;
     display: inline-block;
-    justify-content: space-around;
     margin-top: 3%;
     margin-bottom: 3%;
     margin-left: 20%;
@@ -112,23 +127,51 @@ section{
     font-size: 1.0em;
     display: flex;
     display: inline-block;
-    justify-content: space-around;
     margin-left: 20%;
     margin-right: 20%;
 }
 
+.cuadrado1{
+    width: 40%;
+    height: 350px;
+    background-color: hsla(283, 64%, 42%, 1);
+    border-radius: 26px;
+    display: inline-block;
+}
+.cuadrado2{
+    width: 40%;
+    height: 350px;
+    background-color: #8927b0;
+    border-radius: 26px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.cuadrado3{
+    width: 40%;
+    height: 350px;
+    background-color: hsla(283, 64%, 42%, 1);
+    border-radius: 26px;
+    display: inline-block;
+
+}
+
 .seccion-info{
-    background-color: hsla(212, 35%, 49%, 1);
+    background-color: lightslategrey;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    font-family: "orbitron";
 }
-
 .container-servicios{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: lightslategray; 
+    font-family: "orbitron";
 }
 .container-img-serv{
     width: 25%;
@@ -150,7 +193,43 @@ section{
     background:  hsla(283, 64%, 42%, 1);
 }
 
-footer{
+.footer-contacto{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "orbitron";
+}
+.footer-contacto h2{
+    font-size:1.5em;
+    color:white
+
+}
+.container-footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.container-info h4{
+    color: white;
+    font-family: "barlow";
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+i{
+    color: white;
+    transform: scale(1);
+}
+
+.container-creaciones{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -160,6 +239,7 @@ footer{
     padding: 0;
     background-color: black;
     color: white;
-    font-size: 0.5em;
+    font-size: 0.7em;
+    font-family: "orbitron";
 }
 
