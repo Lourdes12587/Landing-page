@@ -193,7 +193,7 @@ section{
     background:  hsla(283, 64%, 42%, 1);
 }
 
-.footer-contacto{
+.container-footer{
     background-color:black;
     display: flex;
     justify-content: center;
@@ -201,33 +201,33 @@ section{
     flex-wrap: wrap;
     font-family: "orbitron";
 }
-.footer-contacto h2{
+.container-footer h2{
     font-size:1.5em;
     color:white
-
 }
-.container-footer{
+
+.container-informacion{
     background-color: black;
     width: 100%;
     display: flex;
-    flex-direction:column;
+    flex-direction: row;
+    gap:20px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 0;
 }
-
 .container-info h4{
     color: white;
     font-family: "barlow";
     display: inline-block;
-    padding-bottom: 50px;
+
 }
 
 i{
     color: white;
-    transform: scale(1);
+    transform: scale(2);
 }
+
 
 .container-creaciones{
     display: flex;
